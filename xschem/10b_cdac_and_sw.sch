@@ -1,4 +1,4 @@
-v {xschem version=3.4.5 file_version=1.2
+v {xschem version=3.4.6RC file_version=1.2
 }
 G {}
 K {}
@@ -18,8 +18,8 @@ C {devices/lab_wire.sym} 260 -450 0 0 {name=p9 sig_type=std_logic lab=cf[0:10]}
 C {devices/lab_wire.sym} 260 -330 0 0 {name=p10 sig_type=std_logic lab=cf[0:10]}
 C {devices/lab_wire.sym} 260 -430 0 0 {name=p11 sig_type=std_logic lab=swp[0:10]}
 C {devices/lab_wire.sym} 260 -310 0 0 {name=p12 sig_type=std_logic lab=swn[0:10]}
-C {devices/lab_wire.sym} 820 -450 0 0 {name=p13 sig_type=std_logic lab=dac_outp[0:10]}
-C {devices/lab_wire.sym} 820 -330 0 0 {name=p14 sig_type=std_logic lab=dac_outn[0:11]}
+C {devices/lab_wire.sym} 820 -450 0 0 {name=p13 sig_type=std_logic lab=dac_outp[0:9]}
+C {devices/lab_wire.sym} 820 -330 0 0 {name=p14 sig_type=std_logic lab=dac_outn[0:9]}
 C {devices/lab_wire.sym} 560 -470 0 1 {name=p15 sig_type=std_logic lab=dac_outp[0:9]}
 C {devices/lab_wire.sym} 560 -350 0 1 {name=p16 sig_type=std_logic lab=dac_outn[0:10]}
 C {devices/lab_wire.sym} 1120 -470 0 1 {name=p17 sig_type=std_logic lab=vcp}

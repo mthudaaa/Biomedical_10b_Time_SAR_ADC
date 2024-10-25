@@ -1,0 +1,42 @@
+timestamp 1729696361
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
+node "c1_n346_n11360#" 0 0 -346 -11360 mim 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "m3_n386_n11400#" 0 0 -386 -11400 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -11360 -345 -11359 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -10640 -345 -10639 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -9920 -345 -9919 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -9200 -345 -9199 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -8480 -345 -8479 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -7760 -345 -7759 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -7040 -345 -7039 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -6320 -345 -6319 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -5600 -345 -5599 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -4880 -345 -4879 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -4160 -345 -4159 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -3440 -345 -3439 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -2720 -345 -2719 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -2000 -345 -1999 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -1280 -345 -1279 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 -560 -345 -559 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 160 -345 161 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 880 -345 881 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 1600 -345 1601 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 2320 -345 2321 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 3040 -345 3041 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 3760 -345 3761 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 4480 -345 4481 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 5200 -345 5201 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 5920 -345 5921 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 6640 -345 6641 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 7360 -345 7361 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 8080 -345 8081 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 8800 -345 8801 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 9520 -345 9521 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 10240 -345 10241 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504
+device csubckt sky130_fd_pr__cap_mim_m3_1 -346 10960 -345 10961 w=400 l=400 "None" "c1_n346_n11360#" 1280 0 "m3_n386_n11400#" 0 370560,2504

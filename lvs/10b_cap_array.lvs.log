@@ -1,0 +1,9 @@
+Netgen 1.5.282 compiled on Sun Oct 13 23:01:02 WIB 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/10b_cap_array.ext.spc
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
+Creating placeholder cell definition.
+Reading netlist file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/10b_cap_array.sch.spc
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
+Creating placeholder cell definition.
