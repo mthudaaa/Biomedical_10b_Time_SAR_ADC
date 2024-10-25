@@ -1,0 +1,49 @@
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_RV4AQU in circuit x10b_cap_array (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_DURRY3 in circuit x10b_cap_array (0)(1 instance)
+
+Class x10b_cap_array (0):  Merged 1013 parallel devices.
+Subcircuit summary:
+Circuit 1: x10b_cap_array                  |Circuit 2: x10b_cap_array                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (1024->11)      |sky130_fd_pr__cap_mim_m3_1 (1024->11)      
+Number of devices: 11                      |Number of devices: 11                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: x10b_cap_array                  |Circuit 2: x10b_cap_array                  
+-------------------------------------------|-------------------------------------------
+VCM                                        |vcm                                        
+SW[0]                                      |sw[0]                                      
+SW[1]                                      |sw[1]                                      
+SW[4]                                      |sw[4]                                      
+SW[2]                                      |sw[2]                                      
+SW[3]                                      |sw[3]                                      
+SW[5]                                      |sw[5]                                      
+SW[7]                                      |sw[7]                                      
+SW[6]                                      |sw[6]                                      
+SW[9]                                      |sw[9]                                      
+SW[8]                                      |sw[8]                                      
+VC                                         |vc                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes x10b_cap_array and x10b_cap_array are equivalent.
+
+Final result: Circuits match uniquely.
+.

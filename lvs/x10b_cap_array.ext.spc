@@ -1,4 +1,4 @@
-* NGSPICE file created from 10b_cap_array.ext - technology: sky130A
+* NGSPICE file created from x10b_cap_array.ext - technology: sky130A
 
 .subckt sky130_fd_pr__cap_mim_m3_1_RV4AQU c1_n346_n11360# m3_n1398_n11400# c1_n1358_n11360#
 + c1_6738_n11360# m3_1638_n11400# c1_666_n11360# c1_n7430_n11360# m3_n7470_n11400#

@@ -1,0 +1,56 @@
+Netgen 1.5.282 compiled on Sun Oct 13 23:01:02 WIB 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/x10b_cap_array.ext.spc
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
+Creating placeholder cell definition.
+Reading netlist file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/x10b_cap_array.sch.spc
+Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
+Creating placeholder cell definition.
+
+Reading setup file /home/gils/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+No property area found for device sky130_fd_pr__cap_mim_m3_1
+No property value found for device sky130_fd_pr__cap_mim_m3_1
+No property mult found for device sky130_fd_pr__cap_mim_m3_1
+No property perim found for device sky130_fd_pr__cap_mim_m3_1
+No property mf found for device sky130_fd_pr__cap_mim_m3_1
+No property area found for device sky130_fd_pr__cap_mim_m3_1
+No property value found for device sky130_fd_pr__cap_mim_m3_1
+No property mult found for device sky130_fd_pr__cap_mim_m3_1
+No property perim found for device sky130_fd_pr__cap_mim_m3_1
+No property mf found for device sky130_fd_pr__cap_mim_m3_1
+Comparison output logged to file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/x10b_cap_array.lvs.out
+Logging to file "/home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/x10b_cap_array.lvs.out" enabled
+Circuit sky130_fd_pr__cap_mim_m3_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'x10b_cap_array'
+Circuit x10b_cap_array contains 1024 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_1 instances: 1024
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'x10b_cap_array'
+Circuit x10b_cap_array contains 11 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:  11
+Circuit contains 12 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'x10b_cap_array'
+Circuit x10b_cap_array contains 11 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:  11
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'x10b_cap_array'
+Circuit x10b_cap_array contains 11 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:  11
+Circuit contains 12 nets.
+
+Circuit 1 contains 11 devices, Circuit 2 contains 11 devices.
+Circuit 1 contains 12 nets,    Circuit 2 contains 12 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "/home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/x10b_cap_array.lvs.out" disabled
+LVS Done.
