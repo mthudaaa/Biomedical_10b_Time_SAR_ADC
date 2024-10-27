@@ -36,7 +36,7 @@ C {devices/ipin.sym} 530 -280 0 0 {name=p12 lab=VIN}
 C {devices/ipin.sym} 530 -340 0 0 {name=p13 lab=IN}
 C {devices/ipin.sym} 530 -220 0 0 {name=p14 lab=VSS}
 C {devices/opin.sym} 510 -310 0 0 {name=p19 lab=OUT}
-C {devices/param.sym} 430 -370 0 0 {name=s1 value="W_N=0.5 L_N=0.5 W_P=1.0 L_P=0.5"}
+C {devices/param.sym} 430 -370 0 0 {name=s1 value="W_N=3 L_N=0.5 W_P=9 L_P=0.5"}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 180 -400 0 0 {name=M1
 L=L_P
 W=W_P

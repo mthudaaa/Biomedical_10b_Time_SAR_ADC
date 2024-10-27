@@ -11,7 +11,6 @@ N 100 -100 220 -100 {
 lab=#net1}
 N 220 -120 220 -100 {
 lab=#net1}
-C {4b_adc.sym} 590 -390 0 0 {name=x1}
 C {devices/vsource.sym} 400 -150 0 0 {name=VS value=0 savecurrent=false}
 C {devices/vsource.sym} 480 -150 0 0 {name=VDA value=1.8 savecurrent=false}
 C {devices/vsource.sym} 680 -150 0 0 {name=VDD value=1.8 savecurrent=false}
