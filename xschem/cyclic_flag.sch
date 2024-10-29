@@ -65,10 +65,10 @@ N 2680 -330 2680 -310 {
 lab=CF[9]}
 N 2680 -310 2720 -310 {
 lab=CF[9]}
-C {sky130_stdcells/dfrtp_2.sym} 410 -310 0 0 {name=x1 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_2.sym} 650 -310 0 0 {name=x2 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_2.sym} 890 -310 0 0 {name=x3 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_2.sym} 1130 -310 0 0 {name=x4 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtp_2.sym} 410 -310 0 0 {name=x1 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/dfrtp_2.sym} 650 -310 0 0 {name=x2 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/dfrtp_2.sym} 890 -310 0 0 {name=x3 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/dfrtp_2.sym} 1130 -310 0 0 {name=x4 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
 C {devices/lab_wire.sym} 320 -330 0 0 {name=p1 sig_type=std_logic lab=RDY}
 C {devices/lab_wire.sym} 560 -330 0 0 {name=p2 sig_type=std_logic lab=RDY}
 C {devices/lab_wire.sym} 800 -330 0 0 {name=p3 sig_type=std_logic lab=RDY}
@@ -85,13 +85,13 @@ C {devices/ipin.sym} 140 -380 0 0 {name=p14 sig_type=std_logic lab=RDY}
 C {devices/ipin.sym} 140 -400 0 0 {name=p15 sig_type=std_logic lab=VDDD}
 C {devices/ipin.sym} 140 -360 0 0 {name=p16 sig_type=std_logic lab=CLKS}
 C {devices/ipin.sym} 140 -340 0 0 {name=p17 sig_type=std_logic lab=VSSD}
-C {sky130_stdcells/buf_8.sym} 1010 -110 0 0 {name=x5 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/buf_8.sym} 1010 -110 0 0 {name=x5 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
 C {devices/lab_wire.sym} 1050 -110 0 1 {name=p18 sig_type=std_logic lab=FINAL}
 C {devices/opin.sym} 120 -300 0 0 {name=p19 sig_type=std_logic lab=CF[0:9]}
 C {devices/opin.sym} 120 -280 0 0 {name=p20 sig_type=std_logic lab=FINAL}
-C {sky130_stdcells/dfrtp_2.sym} 1370 -310 0 0 {name=x6 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_2.sym} 1610 -310 0 0 {name=x7 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_2.sym} 1850 -310 0 0 {name=x8 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtp_2.sym} 1370 -310 0 0 {name=x6 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/dfrtp_2.sym} 1610 -310 0 0 {name=x7 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/dfrtp_2.sym} 1850 -310 0 0 {name=x8 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
 C {devices/lab_wire.sym} 1280 -330 0 0 {name=p9 sig_type=std_logic lab=RDY}
 C {devices/lab_wire.sym} 1520 -330 0 0 {name=p21 sig_type=std_logic lab=RDY}
 C {devices/lab_wire.sym} 1760 -330 0 0 {name=p22 sig_type=std_logic lab=RDY}
@@ -101,9 +101,9 @@ C {devices/lab_wire.sym} 1760 -310 0 0 {name=p25 sig_type=std_logic lab=CF[5]}
 C {devices/lab_wire.sym} 1280 -290 0 0 {name=p26 sig_type=std_logic lab=CLKS}
 C {devices/lab_wire.sym} 1520 -290 0 0 {name=p27 sig_type=std_logic lab=CLKS}
 C {devices/lab_wire.sym} 1760 -290 0 0 {name=p28 sig_type=std_logic lab=CLKS}
-C {sky130_stdcells/dfrtp_2.sym} 2090 -310 0 0 {name=x9 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_2.sym} 2330 -310 0 0 {name=x10 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfrtp_2.sym} 2570 -310 0 0 {name=x11 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfrtp_2.sym} 2090 -310 0 0 {name=x9 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/dfrtp_2.sym} 2330 -310 0 0 {name=x10 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/dfrtp_2.sym} 2570 -310 0 0 {name=x11 VGND=VSSD VNB=VSSD VPB=VDDD VPWR=VDDD prefix=sky130_fd_sc_hdll__ }
 C {devices/lab_wire.sym} 2000 -330 0 0 {name=p29 sig_type=std_logic lab=RDY}
 C {devices/lab_wire.sym} 2240 -330 0 0 {name=p30 sig_type=std_logic lab=RDY}
 C {devices/lab_wire.sym} 2480 -330 0 0 {name=p31 sig_type=std_logic lab=RDY}

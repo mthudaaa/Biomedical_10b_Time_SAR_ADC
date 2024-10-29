@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 1110 -540 1910 -140 {flags=graph
-y1=-0.15436056
-y2=2.1306766
+y1=-0.38039828
+y2=1.980259
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.1991988e-05
-x2=5.133987e-05
+x1=7.986972e-06
+x2=6.1233452e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -29,8 +29,8 @@ color="9 6 7 12"
 node="x1.clks
 x1.vcn
 x1.vcp
-x1.comp"
-hilight_wave=-1}
+x1.comp_p"
+hilight_wave=1}
 B 2 1950 -540 2750 -140 {flags=graph
 y1=0
 y2=2
@@ -39,8 +39,8 @@ ypos2=2.5739087
 divy=5
 subdivy=1
 unity=1
-x1=1.1991988e-05
-x2=5.133987e-05
+x1=7.986972e-06
+x2=6.1233452e-05
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -62,7 +62,9 @@ unitx=1
 logx=0
 logy=0
 hilight_wave=0
-digital=1}
+digital=1
+sim_type=tran
+autoload=0}
 N 200 -230 200 -210 {
 lab=#net1}
 N 200 -210 320 -210 {
@@ -103,7 +105,7 @@ format="tcleval( @value )"
 value="
 ** opencircuitdesign pdks install
 * .lib $::SKYWATER_MODELS/sky130.lib.spice tt
-.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hdll/spice/sky130_fd_sc_hdll.spice
 "
 spice_ignore=false}
 C {devices/code.sym} 345 -565 0 0 {name=s2 only_toplevel=false value="
@@ -111,7 +113,7 @@ C {devices/code.sym} 345 -565 0 0 {name=s2 only_toplevel=false value="
 .option savecurrents
 .options acct list
 .options method=trapezoid
-.options reltol=1e-2 abstol=1e-3
+.options reltol=1e-3 abstol=1e-4
 .options maxstep=10n
 .options minbreak=1n
 .options solver=iterative
@@ -124,7 +126,7 @@ save
 + vin
 + x1.vcp
 + x1.vcn
-+ x1.comp
++ x1.comp_p
 + x1.clks
 + 'dout[0]'
 + 'dout[1]'

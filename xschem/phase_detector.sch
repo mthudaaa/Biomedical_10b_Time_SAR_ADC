@@ -54,13 +54,13 @@ lab=OUT}
 N 380 -220 920 -220 {
 lab=VSSA}
 N 960 -250 1040 -250 {
-lab=#net7}
+lab=INN}
 N 1040 -250 1060 -250 {
-lab=#net7}
+lab=INN}
 N 1060 -650 1060 -250 {
-lab=#net7}
-C {sky130_stdcells/nand2_1.sym} 520 -580 1 1 {name=x1 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/nand2_1.sym} 780 -580 1 1 {name=x2 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hd__ }
+lab=INN}
+C {sky130_stdcells/nand2_1.sym} 520 -580 1 1 {name=x1 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/nand2_1.sym} 780 -580 1 1 {name=x2 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hdll__ }
 C {sky130_fd_pr/pfet3_01v8.sym} 260 -770 0 0 {name=M1
 W=3
 L=0.15
