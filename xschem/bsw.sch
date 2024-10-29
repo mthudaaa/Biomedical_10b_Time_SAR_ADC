@@ -95,11 +95,9 @@ N 1530 -890 1530 -850 {
 lab=clkb}
 N 1560 -810 1600 -810 {
 lab=vss}
-N 1540 -480 1540 -390 {
-lab=vo}
 C {sky130_fd_pr/pfet_01v8.sym} 880 -650 0 0 {name=M1
 L=0.15
-W=1.5
+W=3
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -113,7 +111,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 1100 -810 0 1 {name=M2
 L=0.15
-W=1.5
+W=3
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -127,7 +125,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 1230 -660 3 0 {name=M3
 L=0.15
-W=1.5
+W=3
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -223,10 +221,10 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1080 -580 0 0 {name=C1 model=cap_mim_m3_1 W=2 L=2 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1080 -580 0 0 {name=C1 model=cap_mim_m3_1 W=2 L=2 MF=4 spiceprefix=X}
 C {sky130_fd_pr/nfet_01v8.sym} 1470 -500 1 0 {name=M10
-L=0.15
-W=1
+L=0.5
+W=8
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -260,5 +258,3 @@ C {devices/ipin.sym} 660 -760 0 0 {name=p19 lab=clkb}
 C {devices/ipin.sym} 660 -720 0 0 {name=p20 lab=vi}
 C {devices/ipin.sym} 660 -680 0 0 {name=p21 lab=vss}
 C {devices/opin.sym} 640 -640 0 0 {name=p22 lab=vo}
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1540 -360 0 0 {name=C2 model=cap_mim_m3_1 W=10 L=10 MF=1 spiceprefix=X}
-C {devices/lab_wire.sym} 1540 -330 2 0 {name=p23 sig_type=std_logic lab=vss}

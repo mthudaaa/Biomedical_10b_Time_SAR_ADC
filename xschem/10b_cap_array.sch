@@ -1,4 +1,4 @@
-v {xschem version=3.4.6RC file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -6,16 +6,16 @@ V {}
 S {}
 E {}
 C {devices/lab_wire.sym} 980 -80 2 0 {name=p1 sig_type=std_logic lab=vcm}
-C {devices/lab_wire.sym} 980 -180 2 0 {name=p3 sig_type=std_logic lab=sw[0]}
-C {devices/lab_wire.sym} 980 -290 2 0 {name=p5 sig_type=std_logic lab=sw[1]}
-C {devices/lab_wire.sym} 980 -400 2 0 {name=p7 sig_type=std_logic lab=sw[2]}
-C {devices/lab_wire.sym} 980 -510 2 0 {name=p9 sig_type=std_logic lab=sw[3]}
-C {devices/lab_wire.sym} 980 -620 2 0 {name=p11 sig_type=std_logic lab=sw[4]}
-C {devices/lab_wire.sym} 980 -730 2 0 {name=p13 sig_type=std_logic lab=sw[5]}
-C {devices/lab_wire.sym} 980 -840 2 0 {name=p15 sig_type=std_logic lab=sw[6]}
-C {devices/lab_wire.sym} 980 -950 2 0 {name=p17 sig_type=std_logic lab=sw[7]}
-C {devices/lab_wire.sym} 980 -1060 2 0 {name=p19 sig_type=std_logic lab=sw[8]}
-C {devices/lab_wire.sym} 980 -1170 2 0 {name=p21 sig_type=std_logic lab=sw[9]}
+C {devices/lab_wire.sym} 980 -180 2 0 {name=p3 sig_type=std_logic lab=sw[9]}
+C {devices/lab_wire.sym} 980 -290 2 0 {name=p5 sig_type=std_logic lab=sw[8]}
+C {devices/lab_wire.sym} 980 -400 2 0 {name=p7 sig_type=std_logic lab=sw[7]}
+C {devices/lab_wire.sym} 980 -510 2 0 {name=p9 sig_type=std_logic lab=sw[6]}
+C {devices/lab_wire.sym} 980 -620 2 0 {name=p11 sig_type=std_logic lab=sw[5]}
+C {devices/lab_wire.sym} 980 -730 2 0 {name=p13 sig_type=std_logic lab=sw[4]}
+C {devices/lab_wire.sym} 980 -840 2 0 {name=p15 sig_type=std_logic lab=sw[3]}
+C {devices/lab_wire.sym} 980 -950 2 0 {name=p17 sig_type=std_logic lab=sw[2]}
+C {devices/lab_wire.sym} 980 -1060 2 0 {name=p19 sig_type=std_logic lab=sw[1]}
+C {devices/lab_wire.sym} 980 -1170 2 0 {name=p21 sig_type=std_logic lab=sw[0]}
 C {devices/ipin.sym} 230 -680 0 0 {name=p53 lab=sw[0:9]}
 C {devices/ipin.sym} 230 -700 0 0 {name=p54 lab=vcm}
 C {devices/iopin.sym} 210 -660 0 0 {name=p56 lab=vc
