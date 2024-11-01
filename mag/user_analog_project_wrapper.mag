@@ -1,7 +1,12 @@
 magic
-tech $PDK
+tech sky130A
 magscale 1 2
-timestamp 1639841760
+timestamp 1727274663
+<< checkpaint >>
+rect 11476 690 14108 694
+rect 11364 672 14108 690
+rect 11140 634 14108 672
+rect -2060 -2060 14108 634
 << mvpsubdiff >>
 rect 345740 628255 345764 629032
 rect 371078 628255 371102 629032
@@ -968,10 +973,54 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
+use sky130_fd_pr__res_generic_m3_KK95PQ  R1
+timestamp 0
+transform 1 0 300 0 1 -713
+box -1100 -87 1100 87
+use sky130_fd_pr__res_generic_m3_KK95PQ  R2
+timestamp 0
+transform 1 0 2500 0 1 -713
+box -1100 -87 1100 87
+use sky130_fd_pr__res_generic_m3_KK95PQ  R4
+timestamp 0
+transform 1 0 4700 0 1 -713
+box -1100 -87 1100 87
+use sky130_fd_pr__res_generic_m3_KK95PQ  R5
+timestamp 0
+transform 1 0 6900 0 1 -713
+box -1100 -87 1100 87
+use sky130_fd_pr__res_generic_m3_KK95PQ  R6
+timestamp 0
+transform 1 0 9100 0 1 -713
+box -1100 -87 1100 87
+use sky130_fd_pr__res_generic_m3_KK95PQ  R7
+timestamp 0
+transform 1 0 11300 0 1 -713
+box -1100 -87 1100 87
+use sky130_fd_pr__res_generic_m3_P54R8A  R8
+timestamp 0
+transform 1 0 12456 0 1 -694
+box -56 -106 56 106
+use sky130_fd_pr__res_generic_m3_PCMRL7  R9
+timestamp 0
+transform 1 0 12568 0 1 -712
+box -56 -88 56 88
+use sky130_fd_pr__res_generic_m3_36GNC9  R11
+timestamp 0
+transform 1 0 12680 0 1 -685
+box -56 -115 56 115
+use sky130_fd_pr__res_generic_m3_BFLN8D  R12
+timestamp 0
+transform 1 0 12792 0 1 -683
+box -56 -117 56 117
 use user_analog_proj_example  user_analog_proj_example_0
 timestamp 1639841760
 transform 1 0 345668 0 -1 627114
 box -59 -22 25476 8324
+use epc  x3
+timestamp 1727274662
+transform 1 0 12640 0 1 -1786
+box 208 986 7867 3216
 << labels >>
 flabel metal3 s 583520 269230 584800 269342 0 FreeSans 1120 0 0 0 gpio_analog[0]
 port 0 nsew signal bidirectional

@@ -8,7 +8,7 @@ E {}
 C {cyclic_flag.sym} 530 -180 0 0 {name=x3}
 C {cdac_ctrl.sym} 990 -280 0 0 {name=x4}
 C {out_latch.sym} 990 -130 0 0 {name=x5}
-C {devices/ipin.sym} 140 -380 0 0 {name=p20 sig_type=std_logic lab=VDDD}
+C {devices/ipin.sym} 140 -400 0 0 {name=p20 sig_type=std_logic lab=VDDD}
 C {devices/ipin.sym} 140 -300 0 0 {name=p22 sig_type=std_logic lab=VSSD}
 C {devices/lab_wire.sym} 380 -320 0 0 {name=p5 sig_type=std_logic lab=VDDD}
 C {devices/lab_wire.sym} 380 -210 0 0 {name=p1 sig_type=std_logic lab=VDDD}
@@ -45,6 +45,7 @@ C {devices/opin.sym} 140 -180 0 0 {name=p52 sig_type=std_logic lab=DOUT[0:9]}
 C {devices/opin.sym} 140 -160 0 0 {name=p53 sig_type=std_logic lab=CKO}
 C {devices/lab_wire.sym} 680 -300 0 1 {name=p23 sig_type=std_logic lab=CLKSB}
 C {devices/opin.sym} 140 -280 0 0 {name=p24 sig_type=std_logic lab=CLKS}
-C {devices/lab_wire.sym} 380 -280 0 0 {name=p2 sig_type=std_logic lab=VDDD}
+C {devices/lab_wire.sym} 380 -280 0 0 {name=p2 sig_type=std_logic lab=EN}
 C {devices/lab_wire.sym} 840 -290 0 0 {name=p6 sig_type=std_logic lab=COMP_N}
 C {devices/ipin.sym} 140 -320 0 0 {name=p11 sig_type=std_logic lab=COMP_N}
+C {devices/ipin.sym} 140 -380 0 0 {name=p14 sig_type=std_logic lab=EN}

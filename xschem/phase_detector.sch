@@ -59,10 +59,10 @@ N 1040 -250 1060 -250 {
 lab=INN}
 N 1060 -650 1060 -250 {
 lab=INN}
-C {sky130_stdcells/nand2_1.sym} 520 -580 1 1 {name=x1 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hdll__ }
-C {sky130_stdcells/nand2_1.sym} 780 -580 1 1 {name=x2 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/nand2_1.sym} 520 -580 1 1 {name=x1 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/nand2_1.sym} 780 -580 1 1 {name=x2 VGND=VSSA VNB=VSSA VPB=VDDA VPWR=VDDA prefix=sky130_fd_sc_hd__ }
 C {sky130_fd_pr/pfet3_01v8.sym} 260 -770 0 0 {name=M1
-W=3
+W=1
 L=0.15
 body=VDDA
 nf=1
@@ -77,7 +77,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_01v8.sym} 260 -650 0 0 {name=M2
-W=3
+W=1
 L=0.15
 body=VDDA
 nf=1
@@ -92,7 +92,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_01v8.sym} 1040 -770 0 1 {name=M3
-W=3
+W=1
 L=0.15
 body=VDDA
 nf=1
@@ -107,7 +107,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_01v8.sym} 1040 -650 0 1 {name=M4
-W=3
+W=1
 L=0.15
 body=VDDA
 nf=1
@@ -122,7 +122,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_01v8.sym} 400 -450 0 1 {name=M5
-W=3
+W=1
 L=0.15
 body=VDDA
 nf=1
@@ -137,7 +137,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 400 -350 0 1 {name=M6
-W=1
+W=0.5
 L=0.15
 body=VSSA
 nf=1
@@ -152,7 +152,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 360 -250 0 0 {name=M7
-W=1
+W=0.5
 L=0.15
 body=VSSA
 nf=1
@@ -167,7 +167,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet3_01v8.sym} 900 -450 0 0 {name=M8
-W=3
+W=1
 L=0.15
 body=VDDA
 nf=1
@@ -182,7 +182,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 900 -350 0 0 {name=M9
-W=1
+W=0.5
 L=0.15
 body=VSSA
 nf=1
@@ -197,7 +197,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet3_01v8.sym} 940 -250 0 1 {name=M10
-W=1
+W=0.5
 L=0.15
 body=VSSA
 nf=1

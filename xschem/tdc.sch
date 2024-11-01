@@ -5,7 +5,6 @@ K {}
 V {}
 S {}
 E {}
-T {READY SIGNAL GENERATOR} 280 -150 0 0 0.4 0.4 {}
 T {DELAY ELEMENT} 340 -660 0 0 0.4 0.4 {}
 T {PHASE DETECTOR} 330 -320 0 0 0.4 0.4 {}
 N 580 -590 660 -590 {
@@ -31,13 +30,10 @@ C {devices/lab_wire.sym} 280 -590 0 0 {name=p44 sig_type=std_logic lab=start}
 C {devices/lab_wire.sym} 280 -450 0 0 {name=p45 sig_type=std_logic lab=start}
 C {devices/lab_wire.sym} 740 -450 0 1 {name=p54 sig_type=std_logic lab=inp}
 C {devices/lab_wire.sym} 740 -590 0 1 {name=p55 sig_type=std_logic lab=inn}
-C {sky130_stdcells/inv_8.sym} 700 -590 0 0 {name=x4 VGND=vssa VNB=vssa VPB=vdda VPWR=vdda prefix=sky130_fd_sc_hdll__ }
-C {sky130_stdcells/inv_8.sym} 700 -450 0 0 {name=x5 VGND=vssa VNB=vssa VPB=vdda VPWR=vdda prefix=sky130_fd_sc_hdll__ }
+C {sky130_stdcells/inv_8.sym} 700 -590 0 0 {name=x4 VGND=vssa VNB=vssa VPB=vdda VPWR=vdda prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/inv_8.sym} 700 -450 0 0 {name=x5 VGND=vssa VNB=vssa VPB=vdda VPWR=vdda prefix=sky130_fd_sc_hd__ }
 C {delay_element.sym} 430 -550 0 0 {name=x2}
 C {delay_element.sym} 430 -410 0 0 {name=x3}
-C {devices/lab_wire.sym} 370 -90 0 0 {name=p9 sig_type=std_logic lab=inn}
-C {devices/lab_wire.sym} 370 -50 0 0 {name=p10 sig_type=std_logic lab=inp}
-C {devices/lab_wire.sym} 490 -70 0 1 {name=p11 sig_type=std_logic lab=rdy}
 C {devices/ipin.sym} 130 -370 0 0 {name=p12 sig_type=std_logic lab=vinn}
 C {devices/ipin.sym} 130 -390 0 0 {name=p13 sig_type=std_logic lab=vinp}
 C {devices/ipin.sym} 130 -430 0 0 {name=p14 sig_type=std_logic lab=vdda}
@@ -45,5 +41,3 @@ C {devices/ipin.sym} 130 -350 0 0 {name=p15 sig_type=std_logic lab=vssa}
 C {devices/ipin.sym} 130 -410 0 0 {name=p16 sig_type=std_logic lab=start}
 C {devices/opin.sym} 110 -310 0 0 {name=p17 sig_type=std_logic lab=outp}
 C {devices/opin.sym} 110 -290 0 0 {name=p18 sig_type=std_logic lab=outn}
-C {sky130_stdcells/or2_1.sym} 430 -70 0 0 {name=x7 VGND=vssa VNB=vssa VPB=vdda VPWR=vdda prefix=sky130_fd_sc_hdll__ }
-C {devices/opin.sym} 110 -270 0 0 {name=p19 sig_type=std_logic lab=rdy}

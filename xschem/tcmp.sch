@@ -123,7 +123,6 @@ C {devices/lab_wire.sym} 840 -410 0 1 {name=p42 sig_type=std_logic lab=outp}
 C {devices/lab_wire.sym} 840 -390 0 1 {name=p43 sig_type=std_logic lab=outn}
 C {devices/lab_wire.sym} 540 -390 0 0 {name=p44 sig_type=std_logic lab=start}
 C {tdc.sym} 690 -370 0 0 {name=x1}
-C {devices/lab_wire.sym} 840 -370 0 1 {name=p3 sig_type=std_logic lab=rdy}
 C {devices/launcher.sym} 1775 -565 0 0 {name=h1 
 descr="load waves local" 
 tclcommand="xschem raw_read /home/mthudaa/Documents/UNIC-CASS-TSAR-ADC-ITS/xschem/tcmp.spice tran"
