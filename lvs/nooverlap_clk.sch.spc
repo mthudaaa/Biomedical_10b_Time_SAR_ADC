@@ -1,4 +1,4 @@
-** sch_path: /home/gils/aic/Biomedical_10b_Time_SAR_ADC/xschem/nooverlap_clk.sch
+** sch_path: /home/kandiasrw/aic/Biomedical_10b_Time_SAR_ADC/xschem/nooverlap_clk.sch
 .subckt nooverlap_clk vdda in vssa clk0 clkb0 clk1 clkb1
 *.PININFO vdda:I in:I vssa:I clk0:O clkb0:O clk1:O clkb1:O
 x1 in a vssa vssa vdda vdda net9 sky130_fd_sc_hd__nand2_1
