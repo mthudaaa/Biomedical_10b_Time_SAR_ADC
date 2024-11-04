@@ -1,12 +1,12 @@
-Netgen 1.5.282 compiled on Sun Oct 13 23:01:02 WIB 2024
+Netgen 1.5.286 compiled on Fri Oct 25 06:15:24 PM WIB 2024
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
-Reading netlist file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.ext.spc
+Reading netlist file /home/kandiasrw/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.ext.spc
 Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__nfet_01v8
 Creating placeholder cell definition.
-Reading netlist file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.sch.spc
+Reading netlist file /home/kandiasrw/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.sch.spc
 Call to undefined subcircuit sky130_fd_sc_hd__nand2_1
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_sc_hd__inv_1
@@ -24,7 +24,7 @@ Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
 Creating placeholder cell definition.
 
-Reading setup file /home/gils/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+Reading setup file /home/kandiasrw/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
 
 Model sky130_fd_pr__res_generic_po pin end_a == end_b
 No property mult found for device sky130_fd_pr__res_generic_po
@@ -83,8 +83,8 @@ No property topography found for device sky130_fd_pr__pfet_01v8_hvt
 No property value found for device sky130_fd_pr__diode_pw2nd_05v5
 No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
 No property perim found for device sky130_fd_pr__diode_pw2nd_05v5
-Comparison output logged to file /home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.lvs.out
-Logging to file "/home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.lvs.out" enabled
+Comparison output logged to file /home/kandiasrw/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.lvs.out
+Logging to file "/home/kandiasrw/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.lvs.out" enabled
 Circuit sky130_fd_pr__pfet_01v8_hvt contains no devices.
 Circuit sky130_fd_pr__nfet_01v8 contains no devices.
 
@@ -177,26 +177,26 @@ Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
 
 
 Contents of circuit 1:  Circuit: 'nooverlap_clk'
-Circuit nooverlap_clk contains 17 device instances.
+Circuit nooverlap_clk contains 13 device instances.
   Class: sky130_fd_sc_hd__inv_1 instances:   5
   Class: sky130_fd_sc_hd__inv_4 instances:   2
-  Class: sky130_fd_sc_hd__inv_8 instances:   8
+  Class: sky130_fd_sc_hd__inv_8 instances:   4
   Class: sky130_fd_sc_hd__nand2_1 instances:   2
-Circuit contains 20 nets.
+Circuit contains 16 nets.
 Contents of circuit 2:  Circuit: 'nooverlap_clk'
-Circuit nooverlap_clk contains 17 device instances.
+Circuit nooverlap_clk contains 13 device instances.
   Class: sky130_fd_sc_hd__inv_1 instances:   5
   Class: sky130_fd_sc_hd__inv_4 instances:   2
-  Class: sky130_fd_sc_hd__inv_8 instances:   8
+  Class: sky130_fd_sc_hd__inv_8 instances:   4
   Class: sky130_fd_sc_hd__nand2_1 instances:   2
-Circuit contains 20 nets.
+Circuit contains 16 nets.
 
-Circuit 1 contains 17 devices, Circuit 2 contains 17 devices.
-Circuit 1 contains 20 nets,    Circuit 2 contains 20 nets.
+Circuit 1 contains 13 devices, Circuit 2 contains 13 devices.
+Circuit 1 contains 16 nets,    Circuit 2 contains 16 nets.
 
 
 Final result: 
 Circuits match uniquely.
 .
-Logging to file "/home/gils/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.lvs.out" disabled
+Logging to file "/home/kandiasrw/aic/Biomedical_10b_Time_SAR_ADC/lvs/nooverlap_clk.lvs.out" disabled
 LVS Done.
