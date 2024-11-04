@@ -1,23 +1,19 @@
 ** sch_path: /home/kandiasrw/aic/Biomedical_10b_Time_SAR_ADC/xschem/nooverlap_clk.sch
 .subckt nooverlap_clk vdda in vssa clk0 clkb0 clk1 clkb1
 *.PININFO vdda:I in:I vssa:I clk0:O clkb0:O clk1:O clkb1:O
-x1 in a vssa vssa vdda vdda net9 sky130_fd_sc_hd__nand2_1
+x1 in a vssa vssa vdda vdda net5 sky130_fd_sc_hd__nand2_1
 x2 b net1 vssa vssa vdda vdda net2 sky130_fd_sc_hd__nand2_1
 x3 in vssa vssa vdda vdda net1 sky130_fd_sc_hd__inv_1
-x4 net9 vssa vssa vdda vdda net8 sky130_fd_sc_hd__inv_1
+x4 net5 vssa vssa vdda vdda net4 sky130_fd_sc_hd__inv_1
 x5 net2 vssa vssa vdda vdda net3 sky130_fd_sc_hd__inv_1
-x6 net8 vssa vssa vdda vdda net7 sky130_fd_sc_hd__inv_1
-x7 net3 vssa vssa vdda vdda net4 sky130_fd_sc_hd__inv_1
-x8 net7 vssa vssa vdda vdda net6 sky130_fd_sc_hd__inv_4
-x9 net4 vssa vssa vdda vdda net5 sky130_fd_sc_hd__inv_4
-x10 net10 vssa vssa vdda vdda clkb0 sky130_fd_sc_hd__inv_8
-x11 net11 vssa vssa vdda vdda clkb1 sky130_fd_sc_hd__inv_8
+x6 net4 vssa vssa vdda vdda b sky130_fd_sc_hd__inv_1
+x7 net3 vssa vssa vdda vdda a sky130_fd_sc_hd__inv_1
+x8 b vssa vssa vdda vdda net6 sky130_fd_sc_hd__inv_4
+x9 a vssa vssa vdda vdda net7 sky130_fd_sc_hd__inv_4
+x10 net6 vssa vssa vdda vdda clkb0 sky130_fd_sc_hd__inv_8
+x11 net7 vssa vssa vdda vdda clkb1 sky130_fd_sc_hd__inv_8
 x12 clkb0 vssa vssa vdda vdda clk0 sky130_fd_sc_hd__inv_8
 x13 clkb1 vssa vssa vdda vdda clk1 sky130_fd_sc_hd__inv_8
-x14 net6 vssa vssa vdda vdda b sky130_fd_sc_hd__inv_8
-x15 net5 vssa vssa vdda vdda a sky130_fd_sc_hd__inv_8
-x16 a vssa vssa vdda vdda net11 sky130_fd_sc_hd__inv_8
-x17 b vssa vssa vdda vdda net10 sky130_fd_sc_hd__inv_8
 .ends
 * Copyright 2020 The SkyWater PDK Authors
 *

@@ -132,9 +132,9 @@ Circuit 1: nooverlap_clk                   |Circuit 2: nooverlap_clk
 sky130_fd_sc_hd__nand2_1 (2)               |sky130_fd_sc_hd__nand2_1 (2)               
 sky130_fd_sc_hd__inv_1 (5)                 |sky130_fd_sc_hd__inv_1 (5)                 
 sky130_fd_sc_hd__inv_4 (2)                 |sky130_fd_sc_hd__inv_4 (2)                 
-sky130_fd_sc_hd__inv_8 (8)                 |sky130_fd_sc_hd__inv_8 (8)                 
-Number of devices: 17                      |Number of devices: 17                      
-Number of nets: 20                         |Number of nets: 20                         
+sky130_fd_sc_hd__inv_8 (4)                 |sky130_fd_sc_hd__inv_8 (4)                 
+Number of devices: 13                      |Number of devices: 13                      
+Number of nets: 16                         |Number of nets: 16                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
@@ -143,8 +143,8 @@ Circuit 1: nooverlap_clk                   |Circuit 2: nooverlap_clk
 -------------------------------------------|-------------------------------------------
 clk1                                       |clk1                                       
 clk0                                       |clk0                                       
-VSSA                                       |vssa                                       
-VDDA                                       |vdda                                       
+vssa                                       |vssa                                       
+vdda                                       |vdda                                       
 in                                         |in                                         
 clkb0                                      |clkb0                                      
 clkb1                                      |clkb1                                      
